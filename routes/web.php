@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
+// Live Wire Counter App
+Route::get('counter', function(){
+    return view('livewire.counter-views.base', []);
 });
